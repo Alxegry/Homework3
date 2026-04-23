@@ -25,10 +25,10 @@ public class Main {
             byte j = 67;
 
 //            Задание 3
-            byte firstClass = 23;
-            byte secondClass = 27;
-            byte thirdClass = 30;
-            short totalPaper = 480;
+            int firstClass = 23;
+            int secondClass = 27;
+            int thirdClass = 30;
+            int totalPaper = 480;
             int oneStudentPaper = totalPaper / (firstClass + secondClass + thirdClass);
             System.out.println("\nНа каждого ученика рассчитано " + oneStudentPaper + " листов бумаги");
 
@@ -57,17 +57,17 @@ public class Main {
 
 //            Задание 6
             byte banana = 5;
-            short milk = 200;
+            float milk = 200f;
             byte iceCream = 2;
             byte egg = 4;
             byte bananaWeight = 80;
-            int milkWeight = milk / 100 * 105;
+            float milkWeight = milk / 100 * 105;
             byte iceCreamWeight = 100;
             byte eggWeight = 70;
             float weightGram = banana * bananaWeight + milk * milkWeight + iceCream * iceCreamWeight + egg * eggWeight;
             int grPerKg = 1000;
             float weightKilo = weightGram / grPerKg;
-            System.out.println("\n" + weightGram + " грамм\n" + weightKilo+ " килограмм");
+            System.out.println("\n" + weightGram + " грамм\n" + weightKilo + " килограмм");
 
 //            Задание 7
             short excessWeight = 7 * 1000;
